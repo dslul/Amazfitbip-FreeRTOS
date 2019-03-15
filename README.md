@@ -18,3 +18,6 @@ Now clone this repository and compile:
     git clone --recursive https://github.com/dslul/Amazfitbip-FreeRTOS
     cd Amazfitbip-FreeRTOS
     make
+
+## Recommended readings
+Beginning STM32: Developing with FreeRTOS, libopencm3 and GCC, by Gay Warren
