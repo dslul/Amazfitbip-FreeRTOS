@@ -17,7 +17,7 @@
  * along with this library.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-/* Linker script for ST STM32F103C8T6 */
+/* Linker script for ST STM32F103C8T6 modified for STM32L476JE*/
 
 MEMORY
 {
