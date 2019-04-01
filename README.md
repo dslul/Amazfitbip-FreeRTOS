@@ -1,6 +1,8 @@
 # Amazfitbip-FreeRTOS
-Warning: this is not (yet?) a complete replacement. It is a starting project to experiment on the platform. At this stage,
+Warning: this is not (yet?) a complete replacement and was NOT tested on a real device. It is a starting project to experiment on the platform. At this stage,
 the firmware must be loaded with an st-link v2 connected directly to SWDIO and SWCLK.
+
+I suggest to try this only on **bricked** devices. If you have one to donate to this cause, please contact me.
 
 [Information on the hardware](https://github.com/amazfitbip/documentation)
 
