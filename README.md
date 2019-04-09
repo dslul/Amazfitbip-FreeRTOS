@@ -1,6 +1,6 @@
 # Amazfitbip-FreeRTOS
 Warning: this is not (yet?) a complete replacement and was NOT tested on a real device. It is a starting project to experiment on the platform. At this stage,
-the firmware must be loaded with an st-link v2 connected directly to SWDIO and SWCLK.
+the firmware must be loaded with an st-link v2 connected directly to SWDIO and SWCLK. You can find the location of these two pins [in this picture](https://github.com/amazfitbip/documentation/blob/master/images/Amazfit_BIP_top_00.png). 
 
 I suggest to try this only on **bricked** devices. If you have one to donate to this cause, please contact me.
 
