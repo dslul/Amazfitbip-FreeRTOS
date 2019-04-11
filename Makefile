@@ -17,7 +17,7 @@ LFLAGS+=-Wl,--start-group -lc -lgcc -lnosys -Wl,--end-group
 M0_FLAGS= $(SFLAGS) -mcpu=cortex-m0 -mthumb -msoft-float
 M0P_FLAGS= $(SFLAGS) -mcpu=cortex-m0plus -mthumb -msoft-float
 M3_FLAGS= $(SFLAGS) -mcpu=cortex-m3 -mthumb -msoft-float
-M4FH_FLAGS= $(SFLAGS) -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16
+M4FH_FLAGS= $(SFLAGS) -mcpu=cortex-m4 -mthumb -specs=nano.specs -specs=nosys.specs -mfloat-abi=hard -mfpu=fpv4-sp-d16
 M7SP_FLAGS= $(SFLAGS) -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-sp-d16
 
 BINARY		= main
