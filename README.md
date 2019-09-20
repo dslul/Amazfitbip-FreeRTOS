@@ -8,6 +8,9 @@ I suggest to try this only on **bricked** devices. If you have one to donate to 
 
 [Information on the hardware](https://github.com/amazfitbip/documentation)
 
+## Restore original firmware / unbrick
+To revert to the original firmware, just flash with st-link the dump available from [this page (version 0.1.1.14)](https://myamazfit.ru/threads/bip-instrukcija-po-vosstanovleniju-chasov-raskirpichivaniju-s-ispolzovaniem-programmatora-st-link-v2.537/).
+
 ## How to compile
 Download the toolchain [from here](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads).
 
